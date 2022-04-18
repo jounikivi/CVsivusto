@@ -16,7 +16,7 @@
     />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <div id="menu-bars" class="fas fa-bars"></div>
@@ -57,7 +57,9 @@
         <a href="#about" class="btn">minä</a>
       </div>
 
-      
+      <div class="image">
+        <!-- <img src="assets/images/kuva.png" alt=""> -->
+      </div>
     </section>
 
     <!-- home section ends -->
@@ -69,13 +71,13 @@
 
       <div class="row-1">
         <div class="image">
-          <img src="images/kuva.png" alt="" />
+          <img src="assets/images/Jouni.jpg" alt="" />
         </div>
 
         <div class="content">
-          <h3>jouni kiviperä datanomi</h3>
-          <p>Olen Tieto- ja viestintätekniikan ammattitutkinto suorittanut, Ohjelmistosuunnittelu ja ohjelmistokehitysprojektin hallinta Datanomi. Minua motivoi uusien asioiden/taitojen opettelu.
-          </p>
+          <h3>Kuka minä olen</h3>
+          <p>
+            Olen siis Jouni kiviperä ikää löytyy jo 41 v harrastuksiini kuuluu kuntosalin ja kävelyn lisäksi tietokoneet, joiden kanssa on tullut ihan pienestä pitäen tehtyä kaikennäköistä. Kiinnostus koko ICT-alaa kohden ollut koko ajan mutta vasta näin aikuisiällä sitä tajusi, että tämä on se mitä haluan tehdä työkseni, niin päätin lähteä opiskelemaan alaa. niinpä päädyin suorittamaan Datanomin tutkinnon rasekon ammattiopistoon, josta valmuistuin vuona 2018. Viimeisin työpaikani oli turun kaupungilla missä toimin osana codepoint ryhmää pääasiana Back End Developeria siellä sai myös suoritettua työnohella Tieto- ja viestintätekniikan ammattitutkinton Ohjelmistosuunnittelu ja ohjelmistokehitysprojektin hallinta. </p>
           <div class="box-container">
             <div class="box">
               <p><span> ikä : </span> 41</p>
@@ -85,13 +87,13 @@
             </div>
             <div class="box">
               <p><span> työtilanne : </span> työtön</p>
-              <p><span> puhelin : </span> +3587446081</p>
+              <p><span> puhelin : </span> +358407446081</p>
               <p><span> email : </span> jounikivipera@gmail.com</p>
               <p><span> kansalaisuus : </span> suomi</p>
             </div>
           </div>
-          <a download="" href="pdf/Kiviperä Jouni CV.pdf" class="btn">
-            Download CV <i class="ri-download-line"></i>
+          <a download="" href="assets/pdf/Kiviperä Jouni CV.pdf" class="btn">
+            lataa CV <i class="ri-download-line"></i>
         </a>
           <!-- <a href="#" class="btn">hire me</a> -->
         </div>
@@ -117,23 +119,33 @@
             <h3>tietokannat <span> 50% </span></h3>
             <div class="bar"><span></span></div>
           </div>
+          <div class="progress">
+            <h3>it-tukipalvelut <span> 90% </span></h3>
+            <div class="bar"><span></span></div>
+          </div>
         </div>
-      </section>
 
-      <section class="home" id="home">
-        <div class="content">
-          <h3>Olen <span> jouni kiviperä </span></h3>
-          <p class="info">Datanomi</p>
-          <p class="text">
-            etsin uusia haasteita niin koodauksen tai IT-tuen parista en ole mikään täysin valmis ammattilainen mutta en pelkää ottaa vastaan uusia haasteita ja opetella uusia taitoja
-          </p>
-          <a href="#about" class="btn">minä</a>
+        <!-- <div class="box-container">
+          <div class="box">
+            <h3>Django</h3>
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="box">
+            <h3>Lorem ipsum</h3>
+            <p>happy clients</p>
+          </div>
+          <div class="box">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum</p>
+          </div>
+          <div class="box">
+            <h3>Lorem ipsum</h3>
+            <p>Lorem ipsum</p>
+          </div>
         </div>
-  
-        
-      </section>
+      </div> -->
+    </section>
 
-      
     <!-- about section ends -->
 
     <!-- service section starts  -->
@@ -148,7 +160,7 @@
             <h3>Tieto- ja viestintätekniikan ammattitutkinto</h3>
             <h1>turun ammatti-instituutti</h1>
             <p>
-              Olen Tieto- ja viestintätekniikan- ammattitutkinto suorittanut, Ohjelmistosuunnittelu ja ohjelmistokehitysprojektin hallinta Datanomi. Minua motivoi uusien asioiden/taitojen opettelu
+              Ohjelmistosuunnittelu ja ohjelmistokehitysprojektin hallinta Backend ohjelmistokehittäjänä toimiminen
             </p>
           </div>
         </div>
@@ -214,8 +226,7 @@
             <span> 05/2021 - 02/2022 </span>
             <h3>Backend Developer</h3>
             <h1>Turun kaupunki (codepoint)</h1>
-            <p>
-              Toimin osana turun kaupunkin codepointin pääasiassa olin backend tiimissä, jossa ylläpidimme <a href="https://lifelearnings.com/">lifelearnings</a> sivustoa </p>
+            <p>Toimin osana turun kaupungin codepointin ryhmää. pääasiassa olin backend tiimissä, jossa ylläpidimme pääasiassa lifelearnings.com sivustoa.</p>
           </div>
         </div>
 
@@ -225,7 +236,7 @@
             <h3>harjoitelia</h3>
             <h1>turku game lab</h1>
             <p>
-              Tehtävään kuului suunnitella ja toteuttaa phaser JavaScript framework. lopputolos löytyy linkin takaa <a href="https://rauno.vesti.fi/game/fire/">fire exit</a>
+              Tehtävään kuului suunnitella ja toteuttaa phaser JavaScript framework. lopputolos löytyy tuolta portfolio osiosta
             </p>
           </div>
         </div>
@@ -243,7 +254,7 @@
           <div class="content">
             <span> 04/2012–01/2014 </span>
             <h3>neuvontatyöntekiä</h3>
-            <h1>työnantaja</h1>
+            <h1>varissuon työttömät vt</h1>
             <p>
               Neuvontapisteen työntekijänä asiakaspalvelu, jäsen- ym. maksujen rahastus ja päivittäisten tilitysten hoito. Tulevien puhelujen hoito, jäsenrekisterin ylläpito, tiedotteiden laatiminen ja niiden välittäminen sähköpostitse jäsenistölle. ATK neuvontaa ja avustanut yhdistyksen atklaitehankinnoissa.
             </p>
@@ -277,40 +288,38 @@
     <!-- portfolio section starts  -->
 
     <section class="portfolio" id="portfolio">
-      <h1 class="heading"><span> my </span> portfolio</h1>
+      <h1 class="heading"><span> minun </span> portfolio</h1>
 
       <div class="box-container">
         <div class="box">
-          <img src="images/Taiteidenya_logo.png" alt="" />
-          <h3>project 01</h3>
+          <img src="assets/images/salo.png" alt="" />
+          <h3>taiteiden yä</h3>
           <div class="icons">
+            <a href="https://github.com/jounikivi/salotaiteidenya" class="fab fa-github"></a>
             <a href="https://taiteidenya.net/" class="fas fa-link"></a>
-            <a href="#" class="fas fa-share"></a>
-            <a href="#" class="fas fa-search"></a>
+            
           </div>
         </div>
 
         <div class="box">
-          <img src="images/img-2.jpg" alt="" />
-          <h3>project 02</h3>
+          <img src="assets/images/turkugamalab.png" alt="" />
+          <h3>fire exit</h3>
           <div class="icons">
-            <a href="#" class="fas fa-link"></a>
-            <a href="#" class="fas fa-share"></a>
-            <a href="#" class="fas fa-search"></a>
+            <a href="https://rauno.vesti.fi/game/fire/" class="fas fa-link"></a>
+            <a href="https://github.com/jounikivi/Fire-Exit" class="fab fa-github"></a>
           </div>
         </div>
 
         <div class="box">
-          <img src="images/img-3.jpg" alt="" />
-          <h3>project 03</h3>
+          <img src="assets/images/life.jpg" alt="" />
+          <h3>life learnings</h3>
           <div class="icons">
-            <a href="#" class="fas fa-link"></a>
-            <a href="#" class="fas fa-share"></a>
-            <a href="#" class="fas fa-search"></a>
+            <a href="https://lifelearnings.com/" class="fas fa-link"></a>
+            
           </div>
         </div>
 
-        <div class="box">
+        <!-- <div class="box">
           <img src="images/img-4.jpg" alt="" />
           <h3>project 04</h3>
           <div class="icons">
@@ -318,9 +327,9 @@
             <a href="#" class="fas fa-share"></a>
             <a href="#" class="fas fa-search"></a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="box">
+        <!-- <div class="box">
           <img src="images/img-5.jpg" alt="" />
           <h3>project 05</h3>
           <div class="icons">
@@ -339,12 +348,16 @@
             <a href="#" class="fas fa-search"></a>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
     <!-- portfolio section ends -->
 
     <!-- contact section starts  -->
+    <section class="contact" id="contact">
+      <h1 class="heading">tämä osio on vielä työn alla</h1>
+
+    </section>
 
     <!-- contact section ends -->
 
